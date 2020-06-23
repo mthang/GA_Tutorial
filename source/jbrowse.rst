@@ -1,6 +1,6 @@
-############
+################
 Jbrowse Tutorial
-############
+################
 
 Please see the Jbrowse_ Tutorial for more information.
 

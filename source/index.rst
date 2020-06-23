@@ -36,7 +36,7 @@ Contact
    contact
 
 Reference
-~~~~~~~
+~~~~~~~~~
 .. toctree::
    :maxdepth: 2
 

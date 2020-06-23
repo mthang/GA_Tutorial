@@ -1,6 +1,6 @@
-############
+################
 Data File Format
-############
+################
 
 File Format
 Web Apollo accepts reference genome in FASTA, 2bit and GFF3 file format.
