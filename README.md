@@ -12,3 +12,9 @@ sudo apt-get install python3-sphinx
 Sphinx formatted document using reStructuredText.
 
 #### [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#lists-and-quote-like-blocks)
+
+Quick Start
+1. cd source
+2. create a new file with rst extension
+3. cd ..( go to back the document rooot)
+4. make html
