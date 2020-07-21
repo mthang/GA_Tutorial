@@ -7,14 +7,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Genome Annotation BioCommons Australia (GABA)'
+project = 'BioCommons WebApollo documentation'
 copyright = '2020, Genome Annotation'
 author = 'QFAB'
 
 # The short X.Y version
 version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = '1'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------

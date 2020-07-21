@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Genome Annotation (WebApollo) Tutorial
-=======================================
+BioCommons WebApollo Documentation
+==================================
 WebApollo is a web-based tool to visualise genomic contents and editing genome anntation. It allows researchers to work on a reference genome collaboratively.
 
 .. toctree::
@@ -22,7 +22,6 @@ Quick Start
 Data
 ~~~~
 .. toctree::
-   :numbered:
 
    data_transfer
    data_preparation

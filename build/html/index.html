@@ -1,31 +1,23 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Genome Annotation (WebApollo) Tutorial &#8212; Genome Annotation BioCommons Australia (GABA) 1 documentation</title>
+    <meta charset="utf-8" />
+    <title>BioCommons WebApollo Documentation &#8212; BioCommons WebApollo documentation  documentation</title>
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '1',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="3. Create Reference Genome" href="data_upload.html" /> 
-  </head>
-  <body>
+    <link rel="next" title="Upload Reference Genome to WebApollo" href="data_upload.html" /> 
+  </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -33,9 +25,9 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="data_upload.html" title="3. Create Reference Genome"
+          <a href="data_upload.html" title="Upload Reference Genome to WebApollo"
              accesskey="N">next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">Genome Annotation BioCommons Australia (GABA) 1 documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="#">BioCommons WebApollo documentation  documentation</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -44,8 +36,8 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="genome-annotation-webapollo-tutorial">
-<h1>Genome Annotation (WebApollo) Tutorial<a class="headerlink" href="#genome-annotation-webapollo-tutorial" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="biocommons-webapollo-documentation">
+<h1>BioCommons WebApollo Documentation<a class="headerlink" href="#biocommons-webapollo-documentation" title="Permalink to this headline">¶</a></h1>
 <p>WebApollo is a web-based tool to visualise genomic contents and editing genome anntation. It allows researchers to work on a reference genome collaboratively.</p>
 <div class="toctree-wrapper compound">
 </div>
@@ -53,7 +45,12 @@
 <h2>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="data_upload.html">3. Create Reference Genome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_upload.html">Upload Reference Genome to WebApollo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_upload.html#example">Example</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_upload.html#upload-reference-genome">Upload Reference Genome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_upload.html#upload-genome-annotation-file">Upload Genome Annotation File</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -61,9 +58,14 @@
 <h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="data_transfer.html">1. Data Transfer to BioCommmons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_preparation.html">2. Data File Format</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_upload.html">3. Create Reference Genome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_transfer.html">Data Transfer to CloudStor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_preparation.html">Data File Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_upload.html">Upload Reference Genome to WebApollo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_upload.html#example">Example</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="data_upload.html#upload-reference-genome">Upload Reference Genome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_upload.html#upload-genome-annotation-file">Upload Genome Annotation File</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -92,9 +94,9 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="#">Table Of Contents</a></h3>
+  <h3><a href="#">Table of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Genome Annotation (WebApollo) Tutorial</a><ul>
+<li><a class="reference internal" href="#">BioCommons WebApollo Documentation</a><ul>
 <li><a class="reference internal" href="#quick-start">Quick Start</a></li>
 <li><a class="reference internal" href="#data">Data</a></li>
 <li><a class="reference internal" href="#contact">Contact</a></li>
@@ -105,7 +107,7 @@
 
   <h4>Next topic</h4>
   <p class="topless"><a href="data_upload.html"
-                        title="next chapter">3. Create Reference Genome</a></p>
+                        title="next chapter">Upload Reference Genome to WebApollo</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -114,15 +116,15 @@
     </ul>
    </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
     </form>
+    </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -134,14 +136,14 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="data_upload.html" title="3. Create Reference Genome"
+          <a href="data_upload.html" title="Upload Reference Genome to WebApollo"
              >next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">Genome Annotation BioCommons Australia (GABA) 1 documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="#">BioCommons WebApollo documentation  documentation</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 2020, Genome Annotation.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.0.
     </div>
   </body>
 </html>

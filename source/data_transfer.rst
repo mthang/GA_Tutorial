@@ -2,7 +2,7 @@
 Data Transfer to CloudStor
 ##########################
 
-Genome Annotation uses CloudStor_ as a data transfer portal for file sharing. CloudStor_ is a file sharing and cloud storage solution for the research and education sector. Please follow the instruction below to upload your data (e.g. reference genome, annotation files and tracks)
+BioCommons WebApollo uses CloudStor_ as a data transfer portal for file sharing. CloudStor_ is a file sharing and cloud storage solution for the research and education sector. Please follow the instruction below to upload your data (e.g. reference genome, annotation files and tracks)
 
 1. Fill up on-board form_
 2. A CloudStor URL will be sent to you for data upload

@@ -16,5 +16,5 @@ Sphinx formatted document using reStructuredText.
 Quick Start
 1. cd source
 2. create a new file with rst extension
-3. cd ..( go to back the document rooot)
+3. cd ..  ( go to back the document root)
 4. make html
