@@ -62,7 +62,7 @@ Upload Genome Annotation File
 
 2. Select the track type to upload (e.g. GFF3)
 
-.. figure:: ../_static/track_type
+.. figure:: ../_static/track_type.JPG
 
 3. Provide the information for the following fields:
      | **Track Name**    : v2 [Note: numeric format followed by dot is not recommended (e.g. 1.0)]

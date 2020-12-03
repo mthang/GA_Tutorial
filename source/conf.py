@@ -7,9 +7,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'BioCommons WebApollo documentation'
-copyright = '2020, Genome Annotation'
-author = 'QFAB'
+project = 'Apollo Portal'
+copyright = '2020, Apollo Portal'
+author = 'QFAB@QCIF'
 
 # The short X.Y version
 version = '1.0'
@@ -37,7 +37,7 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
+#source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
 
 # The master toctree document.

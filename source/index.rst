@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-BioCommons WebApollo Documentation
-==================================
+Apollo Portal Documentation
+===========================
 WebApollo is a web-based tool to visualise genomic contents and editing genome anntation. It allows researchers to work on a reference genome collaboratively.
 
 .. toctree::
@@ -18,6 +18,12 @@ Quick Start
 
    data_upload
 
+User Permission
+~~~~~~~~~~~~~~~
+.. toctree::
+   :maxdepth: 2
+
+   userpermission
 
 Data
 ~~~~
@@ -26,6 +32,12 @@ Data
    data_transfer
    data_preparation
    data_upload
+
+Genome Annotation
+~~~~~~~~~~~~~~~~~
+.. toctree::
+
+   genome_annotation
 
 Contact
 ~~~~~~~
@@ -41,7 +53,3 @@ Reference
 
    webapollo
    jbrowse
-
-
-
-

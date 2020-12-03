@@ -2,7 +2,11 @@
 Contact
 ############
 
-Australia BioCommons_
+Apollo Portal Support_
+
+.. _Support: apollo-support@genome.edu.au
+
+BioCommons_ Australia
 
 .. _BioCommons: https://www.biocommons.org.au/
 
