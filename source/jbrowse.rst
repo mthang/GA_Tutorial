@@ -10,8 +10,8 @@ Please see the Jbrowse tutorial_ or FAQ_ for more information.
 .. _FAQ: http://jbrowse.org/docs/faq_setup.html
 
 
-Demo Server
-~~~~~~~~~~~
+Demo Server and Forum
+~~~~~~~~~~~~~~~~~~~~~
 A demo server is made available for the public user by the official Apollo Team. The Demo Server_ can be accessed with the follwoing login information.
 
 - username :  demo@demo.com
